@@ -218,6 +218,8 @@ module zaggro::pool {
         let sui_balance = coin::into_balance(sui);
         let tok_balance = coin::into_balance(token);
 
+        
+
         let (sui_amount, tok_amount, lsp_supply) = get_amounts(pool);
 
         let sui_added = balance::value(&sui_balance);

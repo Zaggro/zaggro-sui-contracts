@@ -16,13 +16,13 @@ module zaggro::pool_factory_tests {
     const ZAGGRO_AMT: u64 = 1000000;
 
     // Tests section
-    #[test] fun test_init_pool() {
+    #[test] fun test_create_pool() {
         let scenario = scenario();
-        test_init_pool_(&mut scenario);
+        test_create_pool_(&mut scenario);
         test::end(scenario);
     }
 
-    fun test_init_pool_(test: &mut Scenario) { 
+    fun test_create_pool_(test: &mut Scenario) { 
        let (owner, _) = people();
        next_tx(test, owner);
        {
@@ -54,8 +54,6 @@ module zaggro::pool_factory_tests {
             test::return_shared(pool)
        }
     }
-
-
 
     // utilities
     fun scenario(): Scenario { test::begin(@0x1) }
