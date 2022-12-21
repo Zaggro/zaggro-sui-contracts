@@ -1,0 +1,19 @@
+{
+  "name": "zaggro-sui-contracts",
+  "version": "1.0.0",
+  "description": "Zaggro SUI Contracts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaggro/zaggro-sui-contracts.git"
+  },
+  "author": "Pavel Zagzin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Zaggro/zaggro-sui-contracts/issues"
+  },
+  "homepage": "https://github.com/Zaggro/zaggro-sui-contracts#readme"
+}
